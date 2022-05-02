@@ -8,28 +8,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="js/materialize.js"></script>
     <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 <body> 
    <header>
         <nav>
             <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">computer</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
+            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" class="brand-logo right">
+                <i class="material-icons">account_circle</i>
+            </a>
+            <a href="#" class="brand-logo2 right">
+                <i class="material-icons">local_grocery_store</i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down container">
                 <li><a href="sass.html">Sass</a></li>
                 <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
-            </ul>
+                <li><a href="collapsible.html">JavaScript</a></li>
+                <li>
+                    <a href="" class="dropdown-trigger" data-target="id_drop">
+                        Tienda
+                        <i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
             </div>
+            <ul id="id_drop" class="dropdown-content">
+                <li><a href="#">lmlam</a></li>
+                <li><a href="#">dalnla</a></li>
+                <li><a href="#">adad</a></li>
+
         </nav>
-    
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
-        </ul>
-   </header> 
+   </header>
+        <div class="contenedor">
+                <div class="caja1">
+                    <button class="boton1"><p>Compuadoras</p></button>
+                </div><div class="caja2">
+                    <button class="boton2">Auriculares</button>
+                </div>
+                
+                <div class="caja3">
+                    <button class="boton3">Mause</button>
+                </div>
+            </div>
+
+        <div class="contenedor2">
+            <div class="caja1">
+                <button class="boton4">Sillas</button>
+            </div><div class="caja2">
+                <button class="boton5">Teclados</button>
+            </div>
+            
+            <div class="caja3">
+                <button class="boton6">Componentes</button>
+            </div>
+        </div>
+
 </body>
 </html>

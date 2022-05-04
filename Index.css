@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+
+body{
+    background-image: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/03/setup-gaming-2267149.jpg?itok=cROLsKPH");
+    background-size: 100% 100%;
+    background-repeat:no-repeat ;
+    object-fit: cover;
+    padding-top: 100px ;
+    z-index: 50;
+    
+    
+}
+
+footer{
+    background-image: url("img-footer/model-3211631_960_720.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    color: #B5B2B2;
+
+}
+
+
+.footer-contenedor {
+    padding-bottom: 40px;
+}
+
+.footer-contenedor:link{
+    color: #fff;
+}
+
+.footer-contenedor-logo{
+    display: inline-block;
+    margin-bottom: 0;
+    width: 40%;
+}
+
+.footer-contenedor-logo img{
+    width: 250px;
+}
+
+.footer-menu1{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.footer-menu2{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.footer-menu3{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+footer li{
+    margin-bottom: 10px;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: block;
+}
+
+.nav-wrapper{
+    background-color: blueviolet;
+}
+
+.contenedor div{
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+}
+button{
+    padding: 60px;
+    background-size: 250px 170px ;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    object-fit: cover;
+}
+
+button:hover{
+    padding: 65px;
+    box-shadow: 4px  8px 15px 0 #9370db;
+    filter: blur(1px);
+}
+
+.contenedor{
+    text-align: center;
+}
+
+.contenedor2{
+    text-align: center;
+}
+
+.contenedor2 div{
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+}
+
+.brand-logo2{
+    margin-right: 100px;
+}
+
+.boton1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7ogrej99ViHzDfk6Ai1e0o2pNV-yV6KPVuT1E4QHK8YY0XEwigheC4rB7biiI49lwtV8&usqp=CAU");
+}
+.boton2{
+    background-image: url("img-bonones/450_1000.jpeg");
+
+}
+.boton3{
+    background-image: url("img-bonones/como_escolher_mouse_gamer.webp");
+}
+.boton4{
+    background-image: url("https://7mejor.top/wp-content/uploads/2022/03/mejor-silla-gaming-1.jpg");
+}
+.boton5{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-4BAv33tHlXf2uh1aLKOWdQmdNU8ZXK7eA&usqp=CAU");
+}
+.boton6{
+    background-image: url("https://www.muycanal.com/wp-content/uploads/2017/07/componentes.jpg");
+}
+
+.conteainer-slider{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px grey,
+                0 15px 10px;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 2px;
+}
+
+.slider{
+    display: flex;
+    width: 400%;
+    height: 400px;
+    margin-left: -100%;
+}
+
+.slider__section{
+    width: 100%;
+}
+
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+
+}
+
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(225, 225, 225, 0.5);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider__btn:hover{
+    background: #fff;
+}
+
+.slider__btn--right{
+    right: 10px;
+}
+
+.slider__btn--left{
+    left: 10px;
+}
+
+.nav img{
+    width: 100px;
+}
+
+
+

@@ -12375,5 +12375,11 @@ $jscomp.polyfill = function (e, r, p, m) {
 })(cash, M.anime);
 
 
-const elemsDropdown = document.querySelectorAll(".dropdown-trigger");
-const instanceDropdown = M.Dropdown.init(elemsDropdown)
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.slider');
+  var instances = M.Slider.init(elems, options);
+});
+
+$(document).ready(function(){
+  $('.slider').slider();
+});

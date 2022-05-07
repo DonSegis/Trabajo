@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+
+body{
+    background: #000000;
+    background-size: 100% 100%;
+    background-repeat:no-repeat ;
+    object-fit: cover;
+    padding-top: 100px ;
+    z-index: 50;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+    
+    
+}
+
+footer{
+    background-image: url("../img-footer/model-3211631_960_720.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    color: #B5B2B2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+
+
+}
+.footer-contenedor {
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+
+.footer-contenedor:link{
+    color: #fff;
+}
+
+.footer-contenedor-logo{
+    display: inline-block;
+    margin-bottom: 0;
+    width: 40%;
+    
+    
+}
+
+.footer-menu1{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.footer-menu2{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.footer-menu3{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+footer li{
+    margin-bottom: 10px;
+}
+h1{
+    font-family: 'Radio Canada', sans-serif;
+    color: #ffffff;
+}
+h3{
+    font-family: 'Radio Canada', sans-serif;
+    color: #ffffff;
+}
+p { 
+    font-family: 'Radio Canada', sans-serif;
+    color:#ffffff
+}
+.container{
+    margin-bottom: 30%;
+}

@@ -10,8 +10,7 @@ body{
     object-fit: cover;
     padding-top: 100px ;
     z-index: 50;
-    
-    
+
 }
 
 footer{
@@ -29,9 +28,6 @@ footer{
     margin-top: 10%;
 }
 
-.footer-contenedor:link{
-    color: #fff;
-}
 
 .footer-contenedor-logo{
     display: inline-block;
@@ -61,6 +57,11 @@ footer{
 footer li{
     margin-bottom: 10px;
 }
+
+footer a{
+    color: #B5B2B2;
+}
+
 .nav{
     position: fixed;
     top: 0;

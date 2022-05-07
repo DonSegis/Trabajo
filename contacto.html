@@ -18,23 +18,23 @@
     <header>
         <nav class="nav">
             <div class="nav-wrapper">
-            <a href="#" class="brand-logo"><a href="#" class="brand-logo"><img src="imagen_2022-05-03_222751225.svg" alt=""></a></a>
-            <a href="#" class="brand-logo right">
-                <i class="material-icons">account_circle</i>
-            </a>
-            <a href="#" class="brand-logo2 right">
-                <i class="material-icons">local_grocery_store</i>
-            </a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down container">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li>
-                    <a href="#" class="dropdown-trigger" data-target="id_drop">
-                        Tienda
-                        <i class="material-icons right">arrow_drop_down</i>
-                    </a>
-                </li>
+                <a href="#" class="brand-logo"><img src="imagen_2022-05-03_222751225.svg" alt=""></a>
+                <a href="cuenta/login.html" class="brand-logo right">
+                    <i class="material-icons">account_circle</i>
+                </a>
+                <a href="#" class="brand-logo2 right">
+                    <i class="material-icons">local_grocery_store</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down container">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li>
+                        <a href="tienda/Tiendar.html" class="dropdown-trigger" data-target="id_drop">
+                            Tienda
+                        </a>
+                    </li>
+                </ul>
             </div>
             <ul id="id_drop" class="dropdown-content">
                 <li><a href="#">lmlam</a></li>
@@ -44,7 +44,39 @@
 
         </nav>
         <script src="js/materialize.js"></script>
-   </header>
+    </header>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>Formulario</h1>
+            <h2></h2>
+        </div>
+        <div class="cuadro">
+            <form>
+                <label for="name">Nombre:</label><br>
+                <input class="controls" type="text" id="name" name="name" value=""><br>
+                <label for="cel">Telefono:</label><br>
+                <input class="controls" type="number" id="cel" name="cel" value=""><br>
+                <label for="e-mail">Correo electronico:</label><br>
+                <input class="controls" type="email" id="e-mail" name="e-mail" value=""><br>
+                <label for="mens">Mensaje:</label><br>
+                <textarea class="controls" name="mens" id="mens" cols="40" rows="10"></textarea><br>
+            </form>
+            <button class="boton-acep">Enviar</button>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <!-- <img src="images.jpg"> -->
+                </div>
+                <div class="flip-card-back">
+                    <h1>Contactanos</h1> 
+                    <p><a href="mailto:contacto@computer.cl? Subject=Consulta%20o%20Problema">contacto@computer.cl</a></p><br>
+                    <p><a href="tel:+56978532865">+56 9 7853 2865</a></p><br>
+                    <p><a href="https://www.instagram.com/invites/contact/?¡=j4106vkw7kr2&utm_content=oeizm04">@computer_tk_oficial</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="footer-contenedor">
             <div class="footer-contenedor-logo">
@@ -55,29 +87,29 @@
                 <ul>
                     <h4>Menu</h4>
                     <br>
-                    <li>Inicio</li>
-                    <li>Tienda</li>
-                    <li>Nosotros</li>
-                    <li>Contacto</li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tienda/Tiendar.html">Tienda</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </div>
             <div class="footer-menu2">
                 <ul>
                     <h4>Legal</h4>
                     <br>
-                    <li>Terminos y Condiciones</li>
-                    <li>Politicas de Pribacidad</li>
-                    <li>Politica de Compra</li>
-                    <li>Garantia</li>
+                    <li> <a href="legal/termsycond.html">Terminos y Condiciones</a></li>
+                    <li><a href="legal/politicadepriv.html">Politicas de Pribacidad</a></li>
+                    <li><a href="legal/politicasdecompra.html">Politica de Compra</a></li>
+                    <li><a href="legal/garantias.html">Garantia</a></li>
                 </ul>
             </div>
             <div class="footer-menu3">
                 <ul>
-                    <h4>Contacto</h4>
                     <br>
-                    <li>contacto@computer.cl</li>
-                    <li>+56 9 7853 2865</li>
-                    <li>@computer_tk</li>
+                    <h4>Contacto</h4>
+                    <li><a href="mailto:contacto@computer.cl? Subject=Consulta%20o%20Problema">contacto@computer.cl</a></li>
+                    <li><a href="tel:+56978532865">+56 9 7853 2865</a></li>
+                    <li><a href="https://www.instagram.com/computer_tk_oficial/" target="_blank">@computer_tk_oficial</a></li>
                     <br>
                 </ul>
             </div>

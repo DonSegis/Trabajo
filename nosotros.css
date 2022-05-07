@@ -50,6 +50,9 @@ footer{
     
     
 }
+footer a{
+    color: #B5B2B2;
+}
 
 .footer-menu1{
     display: inline-block;
@@ -119,7 +122,7 @@ footer li{
 .contei-logo b{
     float: left;
     position: relative;
-    left: 240px;
+    left: 140px;
     top: -50px;
     z-index: 1;
     font-size: 20px;
@@ -151,3 +154,5 @@ footer li{
 .footer-contenedor-logo img{
     width: 250px;
 }
+
+
